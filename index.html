@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Němčina - Stupňování Přídavných Jmen</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
+        .container { max-width: 500px; margin: auto; }
+        .question { font-size: 20px; margin-bottom: 10px; }
+        .input { padding: 10px; width: 100%; margin-bottom: 10px; }
+        .button { padding: 10px 20px; font-size: 16px; cursor: pointer; }
+        .result { margin-top: 10px; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Stupňování Přídavných Jmen</h1>
+        <p class="question" id="question"></p>
+        <input type="text" class="input" id="answer" placeholder="Zadej odpověď">
+        <button class="button" onclick="checkAnswer()">Ověřit</button>
+        <p class="result" id="result"></p>
+    </div>
+
+    <script>
+        const questions = [
+            { question: "Stupňování slova 'gut' (dobrý) - superlativ?", answer: "am besten" },
+            { question: "Stupňování slova 'viel' (hodně) - komparativ?", answer: "mehr" },
+            { question: "Stupňování slova 'gern' (rád) - superlativ?", answer: "am liebsten" },
+            { question: "Stupňování slova 'schnell' (rychlý) - superlativ?", answer: "am schnellsten" },
+            { question: "Stupňování slova 'kurz' (krátký) - komparativ?", answer: "kürzer" }
+        ];
+
+        let currentQuestion = 0;
+        document.getElementById("question").innerText = questions[currentQuestion].question;
+
+        function checkAnswer() {
+            let userAnswer = document.getElementById("answer").value.trim();
+            let correctAnswer = questions[currentQuestion].answer;
+            let resultText = userAnswer.toLowerCase() === correctAnswer.toLowerCase() 
+                ? "✅ Správně!" 
+                : `❌ Špatně! Správná odpověď: ${correctAnswer}`;
+            document.getElementById("result").innerText = resultText;
+            setTimeout(nextQuestion, 2000);
+        }
+
+        function nextQuestion() {
+            currentQuestion = (currentQuestion + 1) % questions.length;
+            document.getElementById("question").innerText = questions[currentQuestion].question;
+            document.getElementById("answer").value = "";
+            document.getElementById("result").innerText = "";
+        }
+    </script>
+</body>
+</html>
