@@ -13,15 +13,15 @@ const data = {
   },
   mainSkills: ["C#", "C", "Java", "JavaScript", "Bash", "C++", "HTML", "CSS"],
   otherSkills: ["Git", "ASP.NET MVC", "SQL", "Unity", "Docker", "Automatizace"],
-  
+
   experience: [
     {
-      company: "Debatní deník",
-      url: "https://debatnidenik.cz",
+      company: "Debatní spolek DD",
+      url: "https://debatnispolek.debatnidenik.cz/",
       role: "IT Specialist",
       period: "07/2024 – nyní",
       desc: "Kompletní IT podpora, správa webových služeb a technická optimalizace interních procesů organizace.",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2560.123456789!2d14.421!3d50.087!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9492167d4f9b%3A0x6b6387a329d4586d!2sPraha!5e0!3m2!1scs!2scz!4v1710000000000!5m2!1scs!2scz"
+      map: "https://www.openstreetmap.org/export/embed.html?bbox=14.386%2C50.052%2C14.456%2C50.122&layer=mapnik&marker=50.087%2C14.421"
     },
     {
       company: "NEWTON Media",
@@ -29,7 +29,7 @@ const data = {
       role: "Stážista — SW Development",
       period: "04/2024",
       desc: "Vývoj C# nástrojů pro automatické filtrování mediálních dat. Tvorba unit testů pro klíčové moduly aplikace.",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2561.428459419137!2d14.4326521769188!3d50.06028881541818!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b9459567c995d%3A0x58957827827f8a84!2sNEWTON%20Media%2C%20a.s.!5e0!3m2!1scs!2scz!4v1716300000000!5m2!1scs!2scz"
+      map: "https://www.openstreetmap.org/export/embed.html?bbox=14.397%2C50.025%2C14.468%2C50.095&layer=mapnik&marker=50.060289%2C14.432652"
     },
     {
       company: "T-Mobile Czech Republic",
@@ -37,27 +37,27 @@ const data = {
       role: "Stážista — Junior Software Engineer",
       period: "04/2023",
       desc: "Optimalizace databázových struktur, vývoj SQL skriptů pro automatizovanou údržbu a promazávání produkčních logů.",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2562.13847844619!2d14.48684717691819!3d50.04680481637142!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b923ca55375c3%3A0x60037a505b2a0c64!2zVC1Nb2JpbGUgQ3plY2ggUmVwdWJsaWMsIGEocy4!5e0!3m2!1scs!2scz!4v1716300000000!5m2!1scs!2scz"
+      map: "https://www.openstreetmap.org/export/embed.html?bbox=14.452%2C50.012%2C14.522%2C50.082&layer=mapnik&marker=50.046805%2C14.486847"
     }
   ],
 
   projects: [
     {
-      title: "LogCleaner Pro",
-      desc: "Automatizovaný nástroj pro správu serverových logů s integrací do Task Scheduleru.",
-      tech: ["C#", ".NET", "XML"],
+      title: "System Bublinka",
+      desc: "System pro správu a evidenci debatních zápasů, včetně plánování, výsledků a statistik účastníků.",
+      tech: ["C#", ".NET", "ASP.NET MVC ", "PostgreSQL"],
+      link: "https://github.com/kubavojak/Bublinka"
+    },
+    {
+      title: "UMLDiagram_Editor",
+      desc: "Nástroj pro tvorbu UML diagramů s podporou tříd, sekvenčních diagramů a generování kódu z diagramů.",
+      tech: ["C#", "WinForms", "OOP"],
       link: "#"
     },
     {
-      title: "MediaFilter API",
-      desc: "RESTful rozhraní pro efektivní filtrování velkých datasetů z mediálních archivů.",
-      tech: ["ASP.NET Core", "SQL Server"],
-      link: "#"
-    },
-    {
-      title: "Unity Pathfinding AI",
-      desc: "Implementace A* algoritmu pro autonomní pohyb entit ve 2D prostředí.",
-      tech: ["C#", "Unity", "Math"],
+      title: "Debate Timer App",
+      desc: "Webová aplikace pro měření času v debatních zápasech.",
+      tech: ["dart", "Flutter", "android studio"],
       link: "#"
     },
     {
@@ -74,14 +74,29 @@ const data = {
       url: "https://fit.cvut.cz",
       degree: "Bc. — Fakulta informačních technologií",
       date: "2021 – 2025",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.54964646875!2d14.391157176920438!3d50.1022713142436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470b951ec608665f%3A0x1994a4c6448373b9!2sFakulta%20informa%C3%8D%C3%ADch%20technologi%C3%AD%20%C4%8CVUT!5e0!3m2!1scs!2scz!4v1716300000000!5m2!1scs!2scz"
+      map: "https://www.openstreetmap.org/export/embed.html?bbox=14.356%2C50.067%2C14.426%2C50.137&layer=mapnik&marker=50.102271%2C14.391157"
     },
     {
       school: "SSŠVT",
       url: "https://www.sssvt.cz",
       degree: "IT — Programování a databáze",
       date: "2021 – 2025",
-      map: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.34964646875!2d14.501157176920438!3d50.1222713142436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470bec08665f%3A0x1994a4c6448373b9!2sSoukrom%C3%A1%20st%C5%99edn%C3%AD%20%C5%A1kola%20v%C3%BDpo%C4%8Detn%C3%AD%20techniky!5e0!3m2!1scs!2scz!4v1716300000000!5m2!1scs!2scz"
+      map: "https://www.openstreetmap.org/export/embed.html?bbox=14.466%2C50.087%2C14.536%2C50.157&layer=mapnik&marker=50.122271%2C14.501157"
+    }
+  ],
+
+  achievements: [
+    {
+      title: "FIKS — Programovací soutěž ČVUT",
+      result: "22. místo",
+      desc: "Fakultní Individuální Korespondenční Soutěž organizovaná FIT ČVUT v Praze zaměřená na algoritmické a programátorské úlohy.",
+      url: "https://fiks.fit.cvut.cz"
+    },
+    {
+      title: "Unity Essentials",
+      result: "Certifikát",
+      desc: "Certifikace od Unity Technologies pokrývající základy vývoje her a interaktivních aplikací v Unity enginu.",
+      url: "https://unity.com/learn"
     }
   ]
 };
@@ -110,7 +125,7 @@ function useFadeIn() {
 // --- ARROW ICON ---
 const ArrowUpRight = () => (
   <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4M9.5 2.5V8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round"/>
+    <path d="M2.5 9.5L9.5 2.5M9.5 2.5H4M9.5 2.5V8" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" strokeLinejoin="round" />
   </svg>
 );
 
@@ -128,6 +143,7 @@ function App() {
             <li><a href="#experience">Zkušenosti</a></li>
             <li><a href="#projects">Projekty</a></li>
             <li><a href="#education">Vzdělání</a></li>
+            <li><a href="#achievements">Úspěchy</a></li>
             <li><a href="#skills">Technologie</a></li>
           </ul>
         </div>
@@ -212,6 +228,24 @@ function App() {
                   <div className="edu-map">
                     <iframe title={edu.school} src={edu.map} loading="lazy" />
                   </div>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          {/* ACHIEVEMENTS */}
+          <section id="achievements">
+            <p className="section-label">Úspěchy</p>
+            <div>
+              {data.achievements.map((ach, i) => (
+                <div key={i} className="edu-item js-fade">
+                  <div className="edu-header">
+                    <a href={ach.url} target="_blank" rel="noreferrer" className="edu-school">
+                      {ach.title} <ArrowUpRight />
+                    </a>
+                    <span className="edu-date">{ach.result}</span>
+                  </div>
+                  <p className="edu-degree">{ach.desc}</p>
                 </div>
               ))}
             </div>
