@@ -12,7 +12,7 @@ const data = {
     github: "https://github.com/kubavojak",
   },
   mainSkills: ["C#", "C", "Java", "JavaScript", "Bash", "C++", "HTML", "CSS"],
-  otherSkills: ["Git", "ASP.NET MVC", "SQL", "Unity", "Docker", "Automatizace"],
+  otherSkills: ["Git", "Linux","Windows","AI","Entity Framework", "ASP.NET MVC", "SQL", "Unity", "Docker", "Automatizace"],
 
   experience: [
     {
