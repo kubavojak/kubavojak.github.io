@@ -73,7 +73,7 @@ const data = {
       school: "FIT ČVUT v Praze",
       url: "https://fit.cvut.cz",
       degree: "Bc. — Fakulta informačních technologií",
-      date: "2021 – 2025",
+      date: "2025 – součastnost",
       map: "https://www.openstreetmap.org/export/embed.html?bbox=14.356%2C50.067%2C14.426%2C50.137&layer=mapnik&marker=50.102271%2C14.391157"
     },
     {
